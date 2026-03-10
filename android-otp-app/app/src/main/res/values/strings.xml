@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OTP SMS Forwarder</string>
+    <string name="app_description">แอพนี้จะขอสิทธิ์อ่านข้อความ SMS เพื่อดักรหัส OTP แล้วส่งไปยังเซิร์ฟเวอร์ของคุณอัตโนมัติ</string>
+    <string name="title_subtitle">ส่ง OTP ไปเว็บอัตโนมัติ</string>
+    <string name="status_title">สถานะ</string>
+    <string name="permission_granted">อนุญาตแล้ว — พร้อมรับ OTP</string>
+    <string name="permission_denied">ยังไม่อนุญาต — กดปุ่มด้านล่างเพื่อเปิดสิทธิ์</string>
+    <string name="btn_open_settings">เปิดการตั้งค่า</string>
+    <string name="how_it_works_title">วิธีใช้งาน</string>
+    <string name="how_it_works_body">เมื่อมี SMS OTP เข้ามาที่เครื่องนี้ แอพจะดึงรหัส OTP แล้วส่งไปยังเว็บเซิร์ฟเวอร์ที่คุณตั้งไว้ โดยอัตโนมัติ</string>
+    <string name="ready_label">พร้อมรับ OTP</string>
+    <string name="device_name_title">ชื่อเครื่องนี้</string>
+    <string name="device_name_subtitle">ตั้งชื่อให้เครื่องนี้ — ชื่อนี้จะแสดงบนเว็บเวลามี OTP ส่งเข้ามาที่เครื่องนี้</string>
+    <string name="device_name_hint">เช่น มือถือแม่, เครื่องที่ 1</string>
+    <string name="btn_save_device_name">บันทึกชื่อเครื่อง</string>
+    <string name="btn_edit_device_name">แก้ไข</string>
+    <string name="toast_saved">บันทึกแล้ว</string>
+    <string name="nav_home">หน้าหลัก</string>
+    <string name="nav_settings">ตั้งค่า</string>
+    <string name="settings_title">ตั้งค่า</string>
+    <string name="server_url_title">URL เซิร์ฟเวอร์</string>
+    <string name="server_url_hint">http://192.168.1.10:3000/api/otp</string>
+    <string name="server_url_hint_emulator">Emulator: http://10.0.2.2:3000/api/otp</string>
+    <string name="btn_save_server_url">บันทึก URL</string>
+    <string name="language_title">ภาษา</string>
+    <string name="language_thai">ไทย</string>
+    <string name="language_english">English</string>
+</resources>
+

@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Modern Slate & Blue Palette */
+  --bg-page: #f8fafc; /* slate-50 */
+  --bg-page-gradient: #f8fafc;
+  
+  --text-primary: #0f172a; /* slate-900 */
+  --text-secondary: #475569; /* slate-600 */
+  --text-muted: #94a3b8; /* slate-400 */
+  
+  --card-bg: #ffffff;
+  --card-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --card-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  
+  --border: #e2e8f0; /* slate-200 */
+  --input-bg: #f1f5f9; /* slate-100 */
+  --input-focus: #3b82f6; /* blue-500 */
+  
+  --primary: #2563eb; /* blue-600 */
+  --primary-hover: #1d4ed8; /* blue-700 */
+  
+  --success: #16a34a; /* green-600 */
+  --success-bg: #dcfce7; /* green-100 */
+  
+  --warning: #ea580c; /* orange-600 */
+  --warning-bg: #ffedd5; /* orange-100 */
+  
+  --error: #dc2626; /* red-600 */
+  --error-bg: #fee2e2; /* red-100 */
+  
+  --live-bg: #dbeafe; /* blue-100 */
+  --live-border: #bfdbfe; /* blue-200 */
+  --live-text: #1d4ed8; /* blue-700 */
+  
+  --section-title: #64748b; /* slate-500 */
+  --list-border: #f1f5f9; /* slate-100 */
+  --sidebar-width: 280px;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input {
+  font-family: inherit;
+}
+
+/* Animations */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.focus-ring {
+  outline: none;
+}
+.focus-ring:focus-visible {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--input-focus);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

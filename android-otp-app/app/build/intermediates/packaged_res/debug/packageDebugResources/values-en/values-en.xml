@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">This app will request SMS permission to detect OTP codes and send them to your server automatically.</string>
+    <string name="app_name">OTP SMS Forwarder</string>
+    <string name="btn_edit_device_name">Edit</string>
+    <string name="btn_open_settings">Open settings</string>
+    <string name="btn_save_device_name">Save name</string>
+    <string name="btn_save_server_url">Save URL</string>
+    <string name="device_name_hint">e.g. Mom\'s phone, Device 1</string>
+    <string name="device_name_subtitle">Set a name for this device — it will appear on the web when OTP is received here.</string>
+    <string name="device_name_title">Device name</string>
+    <string name="how_it_works_body">When an SMS OTP arrives on this device, the app will extract the OTP code and send it to your web server automatically.</string>
+    <string name="how_it_works_title">How it works</string>
+    <string name="language_english">English</string>
+    <string name="language_thai">ไทย</string>
+    <string name="language_title">Language</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_settings">Settings</string>
+    <string name="permission_denied">Not granted — Tap the button below to enable</string>
+    <string name="permission_granted">Granted — Ready to receive OTP</string>
+    <string name="ready_label">Ready for OTP</string>
+    <string name="server_url_hint">http://192.168.1.10:3000/api/otp</string>
+    <string name="server_url_hint_emulator">Emulator: http://10.0.2.2:3000/api/otp</string>
+    <string name="server_url_title">Server URL</string>
+    <string name="settings_title">Settings</string>
+    <string name="status_title">Status</string>
+    <string name="title_subtitle">Forward OTP to web</string>
+    <string name="toast_saved">Saved</string>
+</resources>
