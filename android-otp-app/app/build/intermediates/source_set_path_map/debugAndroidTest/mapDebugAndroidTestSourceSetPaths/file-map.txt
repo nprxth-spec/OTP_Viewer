@@ -1,0 +1,6 @@
+com.example.otpapp.test.app-jetified-core-1.6.1-0 C:\Users\ADMINSER\.gradle\caches\9.0.0\transforms\a2d4ad8a11dfbaba75606f2af9fdb4d8\transformed\jetified-core-1.6.1\res
+com.example.otpapp.test.app-androidTest-1 C:\Users\ADMINSER\Desktop\otp_app\android-otp-app\app\build\generated\res\resValues\androidTest\debug
+com.example.otpapp.test.app-updated_navigation_xml-2 C:\Users\ADMINSER\Desktop\otp_app\android-otp-app\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.example.otpapp.test.app-mergeDebugAndroidTestResources-3 C:\Users\ADMINSER\Desktop\otp_app\android-otp-app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.otpapp.test.app-mergeDebugAndroidTestResources-4 C:\Users\ADMINSER\Desktop\otp_app\android-otp-app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.otpapp.test.app-debugAndroidTest-5 C:\Users\ADMINSER\Desktop\otp_app\android-otp-app\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
